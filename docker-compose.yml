@@ -5,3 +5,10 @@ services:
     build: web
     ports: 
       - 5000:5000
+      
+  sql:
+    build: web
+    ports: 
+      - 3306:3306
+    environment:
+      TZ: Asia/Bangkok
