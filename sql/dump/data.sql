@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS `data`;
-USE `data`;
+CREATE DATABASE IF NOT EXISTS `database`;
+USE `database`;
 
 DROP TABLE IF EXISTS `text`;
 CREATE TABLE `text` (
