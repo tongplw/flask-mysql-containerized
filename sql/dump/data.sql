@@ -1,8 +1,7 @@
 CREATE DATABASE IF NOT EXISTS `database`;
 USE `database`;
 
-DROP TABLE IF EXISTS `text`;
-CREATE TABLE `text` (
-    `id` int(11) unsigned PRIMARY KEY AUTO_INCREMENT,
-    `text` VARCHAR(255)
+DROP TABLE IF EXISTS `time`;
+CREATE TABLE `time` (
+    `t1`  TIMESTAMP PRIMARY KEY
 );
